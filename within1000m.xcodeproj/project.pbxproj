@@ -54,14 +54,22 @@
 		524367602050E57A002992D1 /* within1000m */ = {
 			isa = PBXGroup;
 			children = (
-				524367612050E57A002992D1 /* AppDelegate.swift */,
+				524367732050F23B002992D1 /* SupportingFiles */,
 				524367632050E57A002992D1 /* ViewController.swift */,
+			);
+			path = within1000m;
+			sourceTree = "<group>";
+		};
+		524367732050F23B002992D1 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				524367612050E57A002992D1 /* AppDelegate.swift */,
 				524367652050E57A002992D1 /* Main.storyboard */,
 				524367682050E57A002992D1 /* Assets.xcassets */,
 				5243676A2050E57A002992D1 /* LaunchScreen.storyboard */,
 				5243676D2050E57A002992D1 /* Info.plist */,
 			);
-			path = within1000m;
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,7 +284,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FXQDZW7GNW;
-				INFOPLIST_FILE = within1000m/Info.plist;
+				INFOPLIST_FILE = within1000m/SupportingFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yonhom.within1000m;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -291,7 +300,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FXQDZW7GNW;
-				INFOPLIST_FILE = within1000m/Info.plist;
+				INFOPLIST_FILE = within1000m/SupportingFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yonhom.within1000m;
 				PRODUCT_NAME = "$(TARGET_NAME)";
